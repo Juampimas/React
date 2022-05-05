@@ -1,9 +1,10 @@
-import logo from '../img/Recurso 1.png';
+import Carrito from "../CartWidget/CartWidget"
+
 
 function NavBar() {
     return(
         <div className="navbar">
-            <img src={logo} alt="logo" />
+            <img className="logotipo" src='../img/Recurso 1.png' alt="logo" />
             <ul>
                 <li><a href="celulares">celulares</a></li>
                 <li><a href="tablets">tablets</a></li>
@@ -11,8 +12,8 @@ function NavBar() {
                 <li><a href="consolas">consolas</a></li>
                 <li><a href="televisores">televisores</a></li>
             </ul>
-            <div className="redes-sociales">
-                
+            <div className="carrito">
+                <Carrito />
             </div>
         </div>
     )

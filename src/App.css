@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: black;
+  background-color: rgb(0, 9, 47);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -19,8 +19,13 @@ body{
   padding: 0 5%;
 }
 
-.navbar img{
+.logotipo{
   width: 5em;
+}
+
+.carrito img{
+  width: 2em;
+  cursor: pointer;
 }
 
 .navbar li{
@@ -39,6 +44,8 @@ body{
 .navbar a:hover{
   color: rgb(227, 0, 0);
 }
+
+
 
 @keyframes App-logo-spin {
   from {
