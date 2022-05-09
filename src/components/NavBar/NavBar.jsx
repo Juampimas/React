@@ -1,9 +1,10 @@
+import React from "react"
 import Carrito from "../CartWidget/CartWidget"
-
+import "../../styles/NavBar.scss"
 
 function NavBar() {
     return(
-        <div className="navbar">
+        <header className="navbar">
             <img className="logotipo" src='../img/Recurso 1.png' alt="logo" />
             <ul>
                 <li><a href="celulares">celulares</a></li>
@@ -15,7 +16,7 @@ function NavBar() {
             <div className="carrito">
                 <Carrito />
             </div>
-        </div>
+        </header>
     )
 }
 

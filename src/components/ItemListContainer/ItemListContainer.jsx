@@ -1,11 +1,15 @@
-import "../styles/ItemListContainer.css"
+import React from "react"
+import Carrito from "../CartWidget/CartWidget"
+import "../../styles/ItemListContainer.scss"
 
-function ItemListContainer(nombre, desc) {
+
+function ItemListContainer(props) {
     return(
         <div className="card">
             <div className="card-body">
-                <h1>{nombre}</h1>
-                <p>{desc}</p>
+                <h1>{props.nombre}</h1>
+                <p>{props.desc}</p>
+                <Carrito />
             </div>
         </div>
     )

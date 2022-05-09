@@ -1,17 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Titulo from './components/Titulo/Titulo';
+import './App.scss';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import Carrito from './components/CartWidget/CartWidget';
+import Hero from './components/Hero/Hero';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <NavBar />
-      </header>
-        {/* <ItemListContainer /> */}
+      <section className='hero'>
+        <Hero />
+      </section>
+        <Footer />
     </div>
   );
 }

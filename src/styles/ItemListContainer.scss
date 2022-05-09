@@ -1,0 +1,15 @@
+.card{
+    width: 20em;
+    height: 25em;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    padding: 2em;
+   .card-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2em;
+      
+   }
+}

@@ -1,0 +1,21 @@
+#footer{
+    height: 12em;
+    width: 100%;
+    position: relative;
+    padding: 2em 8% 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(84, 84, 84);
+    .container-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 1em 0;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+        }
+    }
+}
