@@ -1,6 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 import Carrito from "../CartWidget/CartWidget"
 import "../../styles/ItemListContainer.scss"
+import ItemCount from "../ItemCount/ItemCount"
 
 
 function ItemListContainer(props) {
@@ -9,7 +10,10 @@ function ItemListContainer(props) {
             <div className="card-body">
                 <h1>{props.nombre}</h1>
                 <p>{props.desc}</p>
-                <Carrito />
+                <div className="flex-btns">
+                    <ItemCount />
+                    <Carrito />
+                </div>
             </div>
         </div>
     )

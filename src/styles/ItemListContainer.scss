@@ -10,6 +10,11 @@
       justify-content: space-between;
       align-items: flex-start;
       gap: 2em;
-      
+      .flex-btns{
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+      }
    }
 }
