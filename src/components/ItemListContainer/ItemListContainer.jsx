@@ -2,20 +2,12 @@ import React, { useState } from "react"
 import Carrito from "../CartWidget/CartWidget"
 import "../../styles/ItemListContainer.scss"
 import ItemCount from "../ItemCount/ItemCount"
+import Item from "../Item/Item"
+import ItemList from "../ItemList/ItemList"
 
-
-function ItemListContainer(props) {
+function ItemListContainer() {
     return(
-        <div className="card">
-            <div className="card-body">
-                <h1>{props.nombre}</h1>
-                <p>{props.desc}</p>
-                <div className="flex-btns">
-                    <ItemCount />
-                    <Carrito />
-                </div>
-            </div>
-        </div>
+        <ItemList />
     )
 }
 

@@ -1,12 +1,15 @@
 main{
-    height: 70vh;
+    height: auto;
     width: 100%;
     background-color: rgb(152, 152, 152);
+    padding: 5em 2em;
     .hero-flex{
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 2em;
     }
 }
