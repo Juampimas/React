@@ -9,7 +9,7 @@ const productos = [
     {id:"4", categoria:"tablet", nombre:"IPhone", precio:20000, stock:40},
     {id:"5", categoria:"tablet", nombre:"IPhone", precio:50000, stock:30},
     {id:"6", categoria:"computadora", nombre:"Notebook Dell", precio:79990, stock:5},
-    {id:"7", categoria:"computadora", nombre:"IdeaCentre 3 AIO", precio:80999, stock:10},
+    {id:"7", categoria:"computadora", nombre:"IdeaCentre 3 AIO", precio:80999, stock:0},
 ]
 
 const getFetch = new Promise((resolve, reject) => {

@@ -11,7 +11,7 @@ function Item(props) {
             <p>Precio: ${props.precio}</p>
             <p>Stock: {props.stock}</p>
             <div className="flex-btns">
-                <ItemCount />
+                <ItemCount stock={props.stock} />
                 <Carrito />
             </div>
         </div>
